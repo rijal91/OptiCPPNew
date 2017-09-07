@@ -1,0 +1,22 @@
+﻿Build started 9/6/2017 5:14:34 PM.
+     1>Project "C:\Users\user\Desktop\Lab Aero Project\OptiCPP3\OptiCPP3\OptiCPP3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\OptiTrack\Motive\inc" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /errorReport:prompt /clr:nostdlib OptiForm.cpp
+         OptiForm.cpp
+     1>c:\users\user\desktop\lab aero project\opticpp3\opticpp3\OptiForm.h(500): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\lab aero project\opticpp3\opticpp3\OptiForm.h(501): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\lab aero project\opticpp3\opticpp3\OptiForm.h(502): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\lab aero project\opticpp3\opticpp3\OptiForm.h(509): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\lab aero project\opticpp3\opticpp3\OptiForm.h(510): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\lab aero project\opticpp3\opticpp3\OptiForm.h(511): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>OptiForm.cpp(9): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Desktop\Lab Aero Project\OptiCPP3\x64\Debug\OptiCPP3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\OptiTrack\Motive\lib" NPTrackingToolsx64.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:x64\Debug\OptiCPP3.OptiForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Desktop\Lab Aero Project\OptiCPP3\x64\Debug\OptiCPP3.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Debug\optitrack.obj
+         x64\Debug\OptiForm.obj
+         "x64\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         OptiCPP3.vcxproj -> C:\Users\user\Desktop\Lab Aero Project\OptiCPP3\x64\Debug\OptiCPP3.exe
+     1>Done Building Project "C:\Users\user\Desktop\Lab Aero Project\OptiCPP3\OptiCPP3\OptiCPP3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.53
